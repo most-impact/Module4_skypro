@@ -21,7 +21,7 @@ def product_samsung() -> Any:
 def category_phone(product_iphone: Any, product_samsung: Any) -> Any:
     return Category(
         "Смартфоны",
-        "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни",
+        "Смартфоны, как средство не только коммуникации, но и получения дополнительных функций для удобства жизни.",
         [product_iphone, product_samsung],
     )
 
