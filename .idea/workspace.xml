@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dec95fd-24c2-422a-8693-9dcf4cdd63ac" name="Changes" comment="fix bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/Homework14_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homework14_1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1dec95fd-24c2-422a-8693-9dcf4cdd63ac" name="Changes" comment="add dot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_main.test_product.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_main.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_main.test_category.executor": "Run",
+    "Python tests.Python tests for test_main.test_product.executor": "Run",
+    "Python tests.Python tests in test_main.py.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test_main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "#1 on develop",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dmitriy\PycharmProjects\Homework14_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_main.test_product">
+  <component name="RunManager" selected="Python tests.Python tests in test_main.py">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Homework14_1" />
       <option name="ENV_FILES" value="" />
@@ -104,6 +105,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_main.test_category" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Homework14_1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main.test_category&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_main.test_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Homework14_1" />
       <option name="ENV_FILES" value="" />
@@ -136,9 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_main.test_product" />
         <item itemvalue="Python tests.Python tests in test_main.py" />
+        <item itemvalue="Python tests.Python tests for test_main.test_category" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for test_main.test_product" />
         <item itemvalue="Python.test_main" />
       </list>
     </recent_temporary>
@@ -167,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727017305141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add dot">
+      <option name="closed" value="true" />
+      <created>1727079724830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727079724830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +208,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="add dot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dot" />
   </component>
 </project>
