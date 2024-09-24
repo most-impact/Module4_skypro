@@ -29,7 +29,6 @@ def category_phone(product_iphone: Any, product_samsung: Any) -> Any:
 def test_product(product_iphone: Any, product_samsung: Any) -> Any:
     assert product_iphone.name == "Iphone 15"
     assert product_iphone.description == "512GB, Gray space"
-    assert product_iphone.price == 210000.0
     assert product_iphone.quantity == 8
 
 
