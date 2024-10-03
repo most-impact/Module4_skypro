@@ -67,3 +67,14 @@ def test_category(category_phone: Any, product_xiaomi: Any) -> Any:
         + "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n"
         + "Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт."
     )
+
+
+def test_magic_methods_product(product_iphone: Any, product_samsung: Any) -> Any:
+    assert str(product_iphone) == "Iphone 15, 210000.0 руб. Остаток: 8 шт."
+    assert str(product_samsung) == "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт."
+
+    assert product_iphone + product_samsung == 2580000.0
+
+
+def test_magic_methods_category(category_phone: Any) -> Any:
+    assert str(category_phone) == "Смартфоны, количество продуктов: 13 шт."
