@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dec95fd-24c2-422a-8693-9dcf4cdd63ac" name="Changes" comment="new commit">
+    <list default="true" id="1dec95fd-24c2-422a-8693-9dcf4cdd63ac" name="Changes" comment="added functionality">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     "Python.main.executor": "Run",
     "Python.test_main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "classes",
+    "git-widget-placeholder": "#3 on classes",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -64,7 +65,7 @@
       <recent name="C:\Users\Dmitriy\PycharmProjects\Homework14_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_main.py">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Homework14_1" />
       <option name="ENV_FILES" value="" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for test_main.test_category" />
         <item itemvalue="Python tests.Python tests in test_main.py" />
         <item itemvalue="Python tests.Python tests for test_main.testing" />
         <item itemvalue="Python tests.Python tests for test_main.test" />
-        <item itemvalue="Python tests.Python tests for test_main.test_category" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727195167730</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added functionality">
+      <option name="closed" value="true" />
+      <created>1727791937016</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727791937016</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +224,7 @@
     <MESSAGE value="fix bugs" />
     <MESSAGE value="add dot" />
     <MESSAGE value="new commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
+    <MESSAGE value="added functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added functionality" />
   </component>
 </project>

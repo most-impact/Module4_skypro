@@ -18,6 +18,11 @@ def product_samsung() -> Any:
 
 
 @pytest.fixture()
+def product_xiaomi() -> Any:
+    return Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
+
+
+@pytest.fixture()
 def category_phone(product_iphone: Any, product_samsung: Any) -> Any:
     return Category(
         "Смартфоны",
@@ -31,8 +36,20 @@ def test_product(product_iphone: Any, product_samsung: Any) -> Any:
     assert product_iphone.description == "512GB, Gray space"
     assert product_iphone.quantity == 8
 
+    new_product = Product.new_product(
+        {
+            "name": "Samsung Galaxy S23 Ultra",
+            "description": "256GB, Серый цвет, 200MP камера",
+            "price": 180000.0,
+            "quantity": 5,
+        }
+    )
+    assert new_product.price == 180000.0
+    new_product.price = -100
+    assert new_product.price == "Цена не должна быть нулевая или отрицательная"
 
-def test_category(category_phone: Any) -> Any:
+
+def test_category(category_phone: Any, product_xiaomi: Any) -> Any:
     assert category_phone.name == "Смартфоны"
     assert (
         category_phone.description
@@ -40,3 +57,13 @@ def test_category(category_phone: Any) -> Any:
     )
     assert category_phone.category_count == 1
     assert category_phone.product_count == 2
+
+    # testing the add_product function
+    category_phone.add_product(product_xiaomi)
+
+    assert category_phone.product_count == 3
+    assert category_phone.products == (
+        "Iphone 15, 210000.0 руб. Остаток: 8 шт.\n"
+        + "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n"
+        + "Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт."
+    )
