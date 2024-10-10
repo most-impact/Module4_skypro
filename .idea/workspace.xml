@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dec95fd-24c2-422a-8693-9dcf4cdd63ac" name="Changes" comment="added functionality">
+    <list default="true" id="1dec95fd-24c2-422a-8693-9dcf4cdd63ac" name="Changes" comment="add dot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_main.py" afterDir="false" />
     </list>
@@ -17,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="magic_methods" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,9 +35,6 @@
     &quot;accountId&quot;: &quot;48419183-598f-4c7e-8b30-9f53f12b88a5&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -46,20 +44,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_main.test.executor": "Run",
-    "Python tests.Python tests for test_main.test_category.executor": "Run",
-    "Python tests.Python tests for test_main.test_product.executor": "Run",
-    "Python tests.Python tests for test_main.testing.executor": "Run",
-    "Python tests.Python tests in test_main.py.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.test_main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "magic__methods",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_main.test_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main.test_product.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_main.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;inheritance&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dmitriy\PycharmProjects\Homework14_1" />
@@ -151,9 +147,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python tests.Python tests for test_main.test_category" />
         <item itemvalue="Python tests.Python tests in test_main.py" />
         <item itemvalue="Python tests.Python tests for test_main.testing" />
+        <item itemvalue="Python tests.Python tests for test_main.test_category" />
         <item itemvalue="Python tests.Python tests for test_main.test" />
       </list>
     </recent_temporary>
@@ -190,23 +186,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727079724830</updated>
     </task>
-    <task id="LOCAL-00003" summary="new commit">
-      <option name="closed" value="true" />
-      <created>1727195167730</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1727195167730</updated>
-    </task>
-    <task id="LOCAL-00004" summary="added functionality">
-      <option name="closed" value="true" />
-      <created>1727791937016</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1727791937016</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,8 +203,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix bugs" />
     <MESSAGE value="add dot" />
-    <MESSAGE value="new commit" />
-    <MESSAGE value="added functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="added functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="add dot" />
   </component>
 </project>
