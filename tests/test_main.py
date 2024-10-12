@@ -62,6 +62,11 @@ def category_phone(smartphone_iphone: Any, smartphone_samsung: Any) -> Any:
     )
 
 
+def test_error_zero_quantity() -> Any:
+    with pytest.raises(ValueError):
+        Product("Бракованный товар", "Неверное количество", 1000.0, 0)
+
+
 def test_mixin_log(capfd) -> Any:
     product = Product(
         "Samsung Galaxy S23 Ultra", "256GB, Серый цвет, 200MP камера", 180000.0, 5
@@ -117,6 +122,9 @@ def test_category(category_phone: Any, smartphone_xiaomi: Any) -> Any:
         + "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт.\n"
         + "Xiaomi Redmi Note 11, 31000.0 руб. Остаток: 14 шт."
     )
+
+    new_category = Category("Пустая категория", "Категория без продуктов", [])
+    assert new_category.middle_price() == 0
 
 
 def test_magic_methods_product(smartphone_iphone: Any, smartphone_samsung: Any) -> Any:
